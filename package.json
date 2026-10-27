@@ -1,0 +1,16 @@
+{
+  "name": "valmont-sous-tension",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Jeu animé de gouvernance universitaire face au risque cyber",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check engine.js && node --check public/app.js",
+    "dev": "node server.js"
+  }
+}
