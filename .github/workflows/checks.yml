@@ -10,5 +10,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: npm run build:pages
+      - run: git diff --exit-code -- docs
       - run: npm run check
       - run: npm test

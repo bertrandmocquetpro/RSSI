@@ -1,6 +1,6 @@
 # Valmont sous tension
 
-Jeu en ligne de décision collective destiné aux responsables universitaires. Formation animée de trois heures, avec un écran partagé par équipe et un poste animateur. Version pilote 0.1, à expérimenter avant diffusion large.
+Jeu en ligne de décision collective destiné aux responsables universitaires. Formation animée de trois heures, avec un écran partagé par équipe et un poste animateur. Versions pilotes à expérimenter avant diffusion large.
 
 ## Fonctionnalités réalisées
 
@@ -13,6 +13,27 @@ Jeu en ligne de décision collective destiné aux responsables universitaires. F
 - Journal, réponses ciblées de l’animateur, bilan et exports texte/JSON.
 - Sauvegarde des sessions sur le serveur et fichier d’accès individuel pour reprendre sur un autre navigateur.
 - Synchronisation par interrogation du serveur toutes les trois secondes. Un écran représente une équipe ; ce n’est pas un éditeur collaboratif simultané pour plusieurs membres d’une même équipe.
+
+## Jouer avec GitHub Pages sans serveur
+
+Le dossier `docs/` contient une version autonome destinée à GitHub Pages. Elle conserve le moteur, les cartes, les arbitrages, le plateau et le débriefing. Chaque navigateur joue une partie indépendante. L’animateur annonce oralement les changements d’étape ; chaque table avance sur son écran. Aucun compte, clé commune ou partage automatique entre appareils.
+
+Les données de jeu sont enregistrées uniquement dans le navigateur, pas dans GitHub. Le bouton « Sauvegarder ma partie » exporte un fichier JSON réimportable sur l’accueil. Le bilan texte permet une restitution collective. Effacer les données du navigateur efface la partie locale. Une nouvelle partie remplace la précédente ; exporter avant de recommencer. Un seul onglet de jeu par navigateur est recommandé.
+
+### Activer la publication
+
+Dans GitHub : Settings → Pages → Build and deployment → Source « Deploy from a branch » → branche `main` → dossier `/docs` → Save. Le dépôt doit être public avec GitHub Free, ou disposer d’une offre autorisant Pages sur dépôt privé. Après publication, utiliser l’URL affichée par GitHub Pages.
+
+### Développer cette version
+
+```sh
+npm run build:pages
+npm test
+```
+
+Le script régénère les ressources de `docs/` depuis le moteur, les cartes et l’interface partagés. Le stockage autonome se trouve dans `docs/local-store.js`. Les variantes E05 et E08 ne sont pas déclenchables dans cette version ; les questions A12 sont posées oralement à l’animateur. Les informations techniques restent des conventions d’exercice.
+
+La version serveur multiéquipes reste disponible dans `server.js` et `public/` pour un hébergement ultérieur.
 
 ## Démarrer sur votre ordinateur
 
@@ -96,4 +117,4 @@ La version pilote utilise un fichier JSON et une seule instance serveur. Elle n�
 
 ## Licence
 
-Aucune licence de redistribution n’est attribuée dans cette version : elle reste à choisir par le titulaire des droits avant ouverture du dépôt. Conserver le dépôt privé tant que ce point n’est pas tranché.
+Aucune licence de redistribution n’est attribuée dans cette version : elle reste à choisir par le titulaire des droits avant ouverture du dépôt. La publication du dépôt ne vaut pas attribution d’une licence de redistribution.

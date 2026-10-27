@@ -1,0 +1,402 @@
+[
+  {
+    "id": "R01",
+    "fam": "RÔLE",
+    "title": "Présidence",
+    "body": "Vous arbitrez au regard des missions et assumez les risques acceptés. Votre décision peut modifier une échéance institutionnelle.",
+    "task": "À défendre : qui autorise quoi, et quand réexaminer la décision ?",
+    "origin": "ADAPTATION DES RÔLES DU SCÉNARIO"
+  },
+  {
+    "id": "R02",
+    "fam": "RÔLE",
+    "title": "Direction générale",
+    "body": "Vous coordonnez les directions et la continuité. Les moyens humains sont limités ; les procédures provisoires auront un coût ultérieur.",
+    "task": "À défendre : quel compromis est réalisable et par qui ?",
+    "origin": "ADAPTATION DES RÔLES DU SCÉNARIO"
+  },
+  {
+    "id": "R03",
+    "fam": "RÔLE",
+    "title": "Direction du numérique",
+    "body": "Vous explicitez les dépendances et organisez la reconstruction. Une priorité métier ne suffit pas à rendre sa reprise possible.",
+    "task": "À défendre : quel ordre technique sert les priorités collectives ?",
+    "origin": "ADAPTATION DES RÔLES DU SCÉNARIO"
+  },
+  {
+    "id": "R04",
+    "fam": "RÔLE",
+    "title": "Responsable sécurité",
+    "body": "Vous qualifiez l’incertitude et les conditions de remise en service. Vous ne disposez pas encore de preuves complètes.",
+    "task": "À défendre : quelle vérification minimale, avec quel risque résiduel ?",
+    "origin": "ADAPTATION DES RÔLES DU SCÉNARIO"
+  },
+  {
+    "id": "R05",
+    "fam": "RÔLE",
+    "title": "Direction de la scolarité",
+    "body": "Une échéance d’inscription approche. Vous devez protéger les étudiants et organiser le traitement des dossiers.",
+    "task": "À défendre : quelles fonctions sont indispensables et quel report est acceptable ?",
+    "origin": "ADAPTATION DES RÔLES DU SCÉNARIO"
+  },
+  {
+    "id": "R06",
+    "fam": "RÔLE",
+    "title": "Direction de la recherche",
+    "body": "Un calcul long doit aboutir dans 48 heures. Les résultats et les accès doivent être distingués.",
+    "task": "À défendre : qu’est-ce qui serait réellement irréversible ?",
+    "origin": "ADAPTATION DES RÔLES DU SCÉNARIO"
+  },
+  {
+    "id": "S01",
+    "fam": "MISSION ET SERVICE",
+    "title": "Inscriptions",
+    "body": "Mission : permettre les inscriptions et leur suivi. La scolarité dépend des identités, du réseau, du stockage et de sa chaîne applicative.",
+    "task": "Relier la mission à ses prérequis et aux personnes affectées.",
+    "origin": "SOCLE SYNTHÉTISÉ • DOSSIER ET MODULE 03"
+  },
+  {
+    "id": "S02",
+    "fam": "MISSION ET SERVICE",
+    "title": "Enseignement",
+    "body": "Mission : maintenir les activités pédagogiques. Moodle et les accès numériques soutiennent une partie des usages.",
+    "task": "Quelles activités peuvent continuer autrement ?",
+    "origin": "SOCLE SYNTHÉTISÉ • DOSSIER ET MODULE 03"
+  },
+  {
+    "id": "S03",
+    "fam": "MISSION ET SERVICE",
+    "title": "Recherche",
+    "body": "Mission : préserver les activités scientifiques. Le calcul en cours semble intact ; accès et export restent incertains.",
+    "task": "Distinguer disponibilité, accès et conservation des résultats.",
+    "origin": "SOCLE SYNTHÉTISÉ • DOSSIER ET MODULE 03"
+  },
+  {
+    "id": "S04",
+    "fam": "MISSION ET SERVICE",
+    "title": "Gestion et paie",
+    "body": "Mission : maintenir les fonctions administratives. Le dossier décrit des applications de ressources humaines et de finances. Aucune échéance de paie n’est établie dans la crise.",
+    "task": "Ne pas inventer une urgence : quelle information demander ?",
+    "origin": "SOCLE SYNTHÉTISÉ • DOSSIER ET MODULE 03"
+  },
+  {
+    "id": "S05",
+    "fam": "MISSION ET SERVICE",
+    "title": "Identités numériques",
+    "body": "Composant partagé : les identités conditionnent l’accès à plusieurs services. Des comptes à privilèges présentent des anomalies.",
+    "task": "Positionner ce prérequis sans en faire une mission métier.",
+    "origin": "SOCLE SYNTHÉTISÉ • DOSSIER ET MODULE 03"
+  },
+  {
+    "id": "S06",
+    "fam": "MISSION ET SERVICE",
+    "title": "Réseau et stockage",
+    "body": "Composants partagés par plusieurs chaînes applicatives. Une partie de l’infrastructure est isolée.",
+    "task": "Dessiner les dépendances ; signaler ce qui n’est pas documenté.",
+    "origin": "SOCLE SYNTHÉTISÉ • DOSSIER ET MODULE 03"
+  },
+  {
+    "id": "S07",
+    "fam": "MISSION ET SERVICE",
+    "title": "Portail et messagerie",
+    "body": "L’environnement numérique de travail est indisponible depuis 6 h 40. La messagerie est intermittente. Le portail n’est pas l’ensemble des applications.",
+    "task": "Quelles communications alternatives sont possibles ?",
+    "origin": "SOCLE SYNTHÉTISÉ • DOSSIER ET MODULE 03"
+  },
+  {
+    "id": "S08",
+    "fam": "MISSION ET SERVICE",
+    "title": "Sauvegardes et reprise",
+    "body": "Le dossier décrit des sauvegardes locales et externalisées. Une copie disponible n’est pas une restauration validée.",
+    "task": "Séparer existence, intégrité et capacité réelle de reprise.",
+    "origin": "SOCLE SYNTHÉTISÉ • DOSSIER ET MODULE 03"
+  },
+  {
+    "id": "I01",
+    "fam": "INFORMATION",
+    "title": "Ici Valmont",
+    "body": "18 000 étudiants, 1 200 enseignants et enseignants-chercheurs, 800 personnels administratifs, techniques et de bibliothèque. Deux campus et une direction numérique de 45 agents.",
+    "task": "Quels publics et quelles missions risquent d’être affectés ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "I02",
+    "fam": "INFORMATION",
+    "title": "09 h 15 | Situation",
+    "body": "Des comportements anormaux ont été détectés sur plusieurs comptes à privilèges. Une partie de l’infrastructure est isolée. Les investigations continuent.",
+    "task": "Que sait-on ? Que ne peut-on pas encore conclure ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "I03",
+    "fam": "INFORMATION",
+    "title": "Demande de scolarité",
+    "body": "La clôture des inscriptions est prévue dans 36 heures. La direction demande un rétablissement immédiat ; un arrêt de 24 heures compliquerait le traitement.",
+    "task": "Une demande d’urgence est-elle une contrainte intangible ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "I04",
+    "fam": "INFORMATION",
+    "title": "Avis de sécurité",
+    "body": "Restaurer sans vérification des identités et de l’environnement pourrait réintroduire le risque. La portée de l’incident n’est pas confirmée.",
+    "task": "Quelles conditions minimales fixer ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "I05",
+    "fam": "INFORMATION",
+    "title": "Dépendances communes",
+    "body": "Portail, scolarité et certains outils de recherche partagent identité, réseau et stockage. Les capacités de reconstruction et validation sont limitées.",
+    "task": "Quels composants doivent précéder une reprise métier ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "I06",
+    "fam": "INFORMATION",
+    "title": "Calcul scientifique",
+    "body": "Un calcul de longue durée doit aboutir dans 48 heures. Il semble intact ; accès et export restent incertains.",
+    "task": "Une impossibilité d’accès signifie-t-elle une perte ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "I07",
+    "fam": "INFORMATION",
+    "title": "Sauvegarde scolarité",
+    "body": "La dernière sauvegarde vérifiée date de la veille ; la validation de son intégrité pour la reprise n’est pas achevée. Les durées annoncées sont estimatives.",
+    "task": "Quelles saisies faudrait-il rapprocher après restauration ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "I08",
+    "fam": "INFORMATION",
+    "title": "Capacité de reconstruction",
+    "body": "Une équipe ne peut traiter qu’une chaîne applicative complexe à la fois. Il n’existe pas de restauration générale autorisée à ce stade.",
+    "task": "Que faut-il différer ou maintenir en mode dégradé ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "I09",
+    "fam": "INFORMATION",
+    "title": "Écart entre plan et pratique",
+    "body": "Les entretiens du dossier signalent un plan de reprise rédigé mais jamais testé et une continuité encore en formalisation. Ce sont des constats historiques.",
+    "task": "Que vérifier avant de s’appuyer sur le plan ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "I10",
+    "fam": "INFORMATION",
+    "title": "Des attentes différentes",
+    "body": "Le dossier décrit une demande de fiabilité, d’assistance et d’interopérabilité. Les indicateurs techniques ne décrivent pas tous les impacts métiers.",
+    "task": "Quel indicateur de conséquence humaine manque au tableau ?",
+    "origin": "SOCLE SYNTHÉTISÉ • I01 I09 I10 DOSSIER ; I02 À I08 MODULE 03"
+  },
+  {
+    "id": "A01",
+    "fam": "ACTION",
+    "title": "Vérifier les identités | 2 jetons",
+    "body": "Qualifier les accès et préparer un environnement de reprise isolé. Résultat en fin de tour. Prérequis de toute restauration complexe.",
+    "task": "Nommer un responsable et consigner les limites de la vérification.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A02",
+    "fam": "ACTION",
+    "title": "Valider la sauvegarde | 2 jetons",
+    "body": "Tester l’exploitabilité de la sauvegarde scolarité. Résultat en fin de tour. Prérequis de A04.",
+    "task": "Anticiper les données à rapprocher depuis la sauvegarde.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A03",
+    "fam": "ACTION",
+    "title": "Préparer un report | 1 jeton",
+    "body": "Étudier un report de clôture des inscriptions. L’animateur révèle E01. La présidence devra décider ; la communication conditionne l’application.",
+    "task": "Préciser l’autorité et les conséquences du report.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A04",
+    "fam": "ACTION",
+    "title": "Restaurer la scolarité | 4 jetons",
+    "body": "Prérequis : A01 et A02 terminées à un tour antérieur. Une restauration complexe maximum par tour. Résultat en fin de tour.",
+    "task": "Justifier la priorité et prévoir le rapprochement des saisies.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A05",
+    "fam": "ACTION",
+    "title": "Préserver la recherche | 4 jetons",
+    "body": "Prérequis : A01 terminée à un tour antérieur. Sécuriser accès au calcul et export, sans reproduire le calcul. Une restauration complexe maximum par tour.",
+    "task": "Préciser quel périmètre scientifique est concerné.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A06",
+    "fam": "ACTION",
+    "title": "Rétablir les accès | 4 jetons",
+    "body": "Prérequis : A01 terminée à un tour antérieur. Rétablir portail et messagerie dans le périmètre validé. Une restauration complexe maximum par tour.",
+    "task": "Identifier les applications qui restent indisponibles.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A07",
+    "fam": "ACTION",
+    "title": "Continuité scolarité | 2 jetons",
+    "body": "Créer un registre provisoire sécurisé et une procédure de rapprochement. Maintien partiel ; aucune restauration informatique automatique.",
+    "task": "Définir accès, responsabilités et traitement ultérieur.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A08",
+    "fam": "ACTION",
+    "title": "Informer les publics | 1 jeton",
+    "body": "Identifier un canal alternatif accessible ; publier faits établis, consignes, limites et prochain point d’information.",
+    "task": "Rédiger trois phrases, sans promesse de délai non démontré.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A09",
+    "fam": "ACTION",
+    "title": "Qualifier les données | 1 jeton",
+    "body": "Consulter le délégué à la protection des données ; organiser la vérification de possibles conséquences sur les données personnelles.",
+    "task": "Ne pas présumer une fuite ; identifier l’information à vérifier.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A10",
+    "fam": "ACTION",
+    "title": "Solliciter un partenaire | 2 jetons",
+    "body": "Obtenir un avis externe au tour suivant. Il ne crée ni restauration immédiate ni jetons supplémentaires dans cette version.",
+    "task": "Formuler la question et le périmètre de l’appui.",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A11",
+    "fam": "ACTION",
+    "title": "Organiser une relève | 1 jeton",
+    "body": "Répartir les tâches et organiser une relève. Neutralise la perte de capacité de E06, même si choisie après sa révélation.",
+    "task": "Qui assure la continuité des équipes ?",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "A12",
+    "fam": "ACTION",
+    "title": "Lever une incertitude | 1 jeton",
+    "body": "Poser une question documentée. Réponse au tour suivant selon les pièces ; « inconnu » est une réponse possible. Action répétable avec une nouvelle question.",
+    "task": "Que changerait chaque réponse possible dans votre décision ?",
+    "origin": "AJOUT DE CONCEPTION • COÛTS ET EFFETS CONVENTIONNELS"
+  },
+  {
+    "id": "E01",
+    "fam": "ÉVÉNEMENT",
+    "title": "Un report est possible",
+    "body": "À révéler immédiatement après A03. Un report de 48 heures est envisageable. Il exige une décision de présidence et une communication avant la fin du tour 3.",
+    "task": "La faisabilité du report modifie-t-elle les priorités ?",
+    "origin": "AJOUT NARRATIF • RÉSERVÉ À L’ANIMATEUR"
+  },
+  {
+    "id": "E02",
+    "fam": "ÉVÉNEMENT",
+    "title": "Le report attend sa décision",
+    "body": "Tour 3 si A03 engagée. Le report prend effet si la présidence le valide et si A08 est réalisée avant la fin du tour. Sinon l’échéance initiale demeure.",
+    "task": "Inscrire explicitement décision, responsable et information aux usagers.",
+    "origin": "AJOUT NARRATIF • RÉSERVÉ À L’ANIMATEUR"
+  },
+  {
+    "id": "E03",
+    "fam": "ÉVÉNEMENT",
+    "title": "Le provisoire a un coût",
+    "body": "Tour 3 si A07 engagée sans A03. Le registre permet un traitement partiel ; les dossiers devront être rapprochés lors de la reprise. Aucun jeton retiré.",
+    "task": "Qui portera cette charge, avec quel contrôle ?",
+    "origin": "AJOUT NARRATIF • RÉSERVÉ À L’ANIMATEUR"
+  },
+  {
+    "id": "E04",
+    "fam": "ÉVÉNEMENT",
+    "title": "Les sollicitations s’accumulent",
+    "body": "Tour 3 sans A03 ni A07. Des étudiants et composantes demandent des consignes. Aucune perte de dossier n’est confirmée. Aucun jeton retiré.",
+    "task": "Définir une réponse et expliciter les conséquences du délai.",
+    "origin": "AJOUT NARRATIF • RÉSERVÉ À L’ANIMATEUR"
+  },
+  {
+    "id": "E05",
+    "fam": "ÉVÉNEMENT",
+    "title": "Une alerte non confirmée",
+    "body": "Variante. Un partage de données paraît suspect ; aucune fuite n’est établie. Aucun jeton retiré automatiquement.",
+    "task": "Qualifier les faits et décider des vérifications utiles.",
+    "origin": "AJOUT NARRATIF • RÉSERVÉ À L’ANIMATEUR"
+  },
+  {
+    "id": "E06",
+    "fam": "ÉVÉNEMENT",
+    "title": "La fatigue réduit la capacité",
+    "body": "Tour 3 sans A11 déjà réalisée : retirer un jeton. Si A11 est choisie maintenant, restituer ce jeton ; six jetons maximum au total.",
+    "task": "Que faut-il renoncer à engager pour soutenir l’équipe ?",
+    "origin": "AJOUT NARRATIF • RÉSERVÉ À L’ANIMATEUR"
+  },
+  {
+    "id": "E07",
+    "fam": "ÉVÉNEMENT",
+    "title": "Un laboratoire demande un accès",
+    "body": "Tour 3 si A11 déjà réalisée. Un laboratoire demande un export prioritaire, sans preuve d’une perte imminente. Aucun jeton retiré.",
+    "task": "Vérifier le périmètre et distinguer demande et fait établi.",
+    "origin": "AJOUT NARRATIF • RÉSERVÉ À L’ANIMATEUR"
+  },
+  {
+    "id": "E08",
+    "fam": "ÉVÉNEMENT",
+    "title": "Une copie reste à valider",
+    "body": "Variante. Pour un service non encore traité, une copie récente n’a pas été testée. Ne remet pas en cause A02 déjà terminée.",
+    "task": "Quelle preuve demander avant de promettre une reprise ?",
+    "origin": "AJOUT NARRATIF • RÉSERVÉ À L’ANIMATEUR"
+  },
+  {
+    "id": "P01",
+    "fam": "REPÈRE",
+    "title": "Conséquences métiers",
+    "body": "Analyse d’impact sur les activités : identifier les conséquences d’une interruption, les publics affectés, leur évolution dans le temps et les solutions provisoires.",
+    "task": "Quel dommage concret votre choix réduit-il ?",
+    "origin": "REPÈRE PÉDAGOGIQUE • SYNTHÈSE POUR LE JEU"
+  },
+  {
+    "id": "P02",
+    "fam": "REPÈRE",
+    "title": "Délai de reprise",
+    "body": "RTO (Recovery Time Objective, objectif de délai de reprise) : délai cible pour rétablir une activité ou un service. Un objectif n’est pas une capacité démontrée.",
+    "task": "Votre délai repose-t-il sur une estimation ou un essai ?",
+    "origin": "REPÈRE PÉDAGOGIQUE • SYNTHÈSE POUR LE JEU"
+  },
+  {
+    "id": "P03",
+    "fam": "REPÈRE",
+    "title": "Perte de données acceptable",
+    "body": "RPO (Recovery Point Objective, objectif de point de reprise) : ancienneté maximale des données dont la perte est acceptée. Ce n’est pas la date d’une sauvegarde.",
+    "task": "Le besoin métier et la copie disponible sont-ils compatibles ?",
+    "origin": "REPÈRE PÉDAGOGIQUE • SYNTHÈSE POUR LE JEU"
+  },
+  {
+    "id": "P04",
+    "fam": "REPÈRE",
+    "title": "Continuité et reprise",
+    "body": "PCA (plan de continuité d’activité) : maintenir les activités prioritaires, éventuellement en mode dégradé. PRA (plan de reprise d’activité) : organiser le rétablissement des moyens interrompus.",
+    "task": "Pouvez-vous maintenir une mission avant de restaurer son outil ?",
+    "origin": "REPÈRE PÉDAGOGIQUE • SYNTHÈSE POUR LE JEU"
+  },
+  {
+    "id": "P05",
+    "fam": "REPÈRE",
+    "title": "Preuve et incertitude",
+    "body": "Un fait est étayé ; une hypothèse reste à vérifier ; une demande exprime un besoin. Indiquer la source et les limites. Une absence de preuve n’établit pas l’absence de risque.",
+    "task": "Quelle pièce nuancerait votre interprétation ?",
+    "origin": "REPÈRE PÉDAGOGIQUE • SYNTHÈSE POUR LE JEU"
+  },
+  {
+    "id": "P06",
+    "fam": "REPÈRE",
+    "title": "Décision révisable",
+    "body": "Une décision précise son responsable, sa justification, le risque résiduel et une condition de réexamen. Un désaccord documenté peut améliorer la décision.",
+    "task": "Quand et sur quel signal rouvrirez-vous l’arbitrage ?",
+    "origin": "REPÈRE PÉDAGOGIQUE • SYNTHÈSE POUR LE JEU"
+  }
+]

@@ -10,7 +10,9 @@
   "scripts": {
     "start": "node server.js",
     "test": "node --test",
-    "check": "node --check server.js && node --check engine.js && node --check public/app.js",
-    "dev": "node server.js"
+    "check": "node --check server.js && node --check engine.js && node --check public/app.js && node --check docs/app.js && node --check docs/local-store.js && node --check scripts/build-pages.mjs",
+    "dev": "node scripts/preview-pages.mjs",
+    "build:pages": "node scripts/build-pages.mjs",
+    "preview:pages": "node scripts/preview-pages.mjs"
   }
 }
